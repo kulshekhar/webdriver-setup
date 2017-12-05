@@ -1,5 +1,7 @@
 language: node_js
 node_js:
   - "stable"
+addons:
+  chrome: stable
 script:
-  - npm run e2e
+  - ./e2e.sh

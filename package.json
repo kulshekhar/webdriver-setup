@@ -12,5 +12,9 @@
     "webdriverio": "^4.9.11",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.5"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "e2e": "wdio wdio.conf.js"
   }
 }
